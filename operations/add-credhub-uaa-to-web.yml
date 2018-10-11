@@ -209,8 +209,7 @@
         encryption:
           keys:
           - provider_name: int
-            key_properties:
-              encryption_password: ((credhub-encryption-password))
+            encryption_password: ((credhub-encryption-password))
             active: true
           providers:
           - name: int
